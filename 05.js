@@ -14,7 +14,11 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
-
+  let nuevoArray= [];
+  for (let i=0; i<array.length; i++){
+    //if (array[i].propiedad===propiedad)
+          nuevoArray[i]=array[i][propiedad];
+} return nuevoArray;
 }
 
 // No modifiques nada debajo de esta linea //
